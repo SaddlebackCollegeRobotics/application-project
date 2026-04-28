@@ -1,7 +1,8 @@
 # ----- import your modules here -----
+from robots import CircularRobot, RectangularRobot, is_colliding
 
 def print_is_colliding(obj1: str, obj2: str, status: bool):
-    print(f'{obj1} is {'' if status else 'not'}colliding with {obj2}')
+    print(f'{obj1} is {'' if status else 'not '}colliding with {obj2}')
 
 def main():
     # Define circular robots
