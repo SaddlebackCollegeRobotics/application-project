@@ -1,5 +1,5 @@
 EXE  := run_me              # name of the output executable
-SRCS := $(wildcard *.cpp)   # SRCS holds the names of all *.cpp files
+SRCS := $(wildcard *.cpp) $(wildcard src/*.cpp)   # SRCS holds the names of all *.cpp files
 OBJS := $(SRCS:.cpp=.o)     # OBJS holds the same but with .cpp replaced by .o
 
 

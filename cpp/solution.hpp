@@ -9,4 +9,6 @@
  *    - A function isColliding() that can take in any two Robots.
  */
 
-
+#include "src/CircularRobot.hpp"
+#include "src/RectangularRobot.hpp"
+#include "src/collision.hpp"
