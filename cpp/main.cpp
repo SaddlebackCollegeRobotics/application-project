@@ -1,4 +1,7 @@
 #include "solution.hpp" // modify solution.hpp to include everything necessary
+#include "rectangularRobot.h"
+#include "circularRobot.h"
+#include "collisions.h"
 
 #include <string>
 #include <cstdio>
