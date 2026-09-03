@@ -1,14 +1,11 @@
 #include "solution.hpp" // modify solution.hpp to include everything necessary
 #include "rectangularRobot.h"
 #include "circularRobot.h"
+#include "collisions.h"
 
 #include <string>
 #include <cstdio>
 using std::string;
-
-bool isColliding(Robot r1, Robot r2) {
-    
-}
 
 // Method to display two objects' names and whether they're colliding
 void printIsColliding(const string& obj1, const string& obj2, bool status) {

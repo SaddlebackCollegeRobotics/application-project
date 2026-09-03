@@ -7,11 +7,7 @@ class RectangularRobot : public Robot {
         double width;
         double height;
 
-        double leftEdge  = xPos - (width/2);
-        double rightEdge = xPos + (width/2);
-        double topEdge = yPos + (height/2);
-        double bottomEdge = yPos - (height/2);
-
+        //functions to get the furthest edges of the rectangular robots
         double getWidth();
         double getHeight();
         double getLeftEdge();

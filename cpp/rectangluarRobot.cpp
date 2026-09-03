@@ -20,17 +20,17 @@ double RectangularRobot::getHeight() {
 }
 
 double RectangularRobot::getLeftEdge() {
-    return leftEdge;
+    return xPos - (width/2);
 }
 
 double RectangularRobot::getRightEdge() {
-    return leftEdge;
+    return xPos + (width/2);
 }
 
 double RectangularRobot::getTopEdge() {
-    return leftEdge;
+    return yPos + (height/2);
 }
 
 double RectangularRobot::getBottomEdge() {
-    return bottomEdge;
+    return yPos - (height/2);
 }
